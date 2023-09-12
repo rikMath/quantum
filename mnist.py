@@ -8,7 +8,7 @@ import tensorflow_quantum as tfq
 import cirq
 import sympy
 import numpy as np
-import seaborn as sns
+# import seaborn as sns
 import collections
 
 # visualization tools
@@ -264,5 +264,5 @@ qnn_accuracy = qnn_results[1]
 cnn_accuracy = cnn_results[1]
 fair_nn_accuracy = fair_nn_results[1]
 
-sns.barplot(["Quantum", "Classical, full", "Classical, fair"],
-            [qnn_accuracy, cnn_accuracy, fair_nn_accuracy])
+# sns.barplot(["Quantum", "Classical, full", "Classical, fair"],
+#             [qnn_accuracy, cnn_accuracy, fair_nn_accuracy])
